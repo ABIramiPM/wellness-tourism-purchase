@@ -23,6 +23,7 @@ ytest.to_csv("ytest.csv", index=False)
 
 
 print("Data prepared: train/test splits written.")
+
 print("Categorical values kept as:")
 print("TypeofContact:", sorted(X["TypeofContact"].dropna().unique()))
 print("Occupation:", sorted(X["Occupation"].dropna().unique()))
