@@ -7,7 +7,7 @@ df = pd.read_csv("tourism_project/data/tourism.csv")
 df.drop(columns=["CustomerID"], inplace=True)
 
 
-X = df.drop(columns=["prodTaken"])
+X = df.drop(columns=["ProdTaken"])
 y = df["ProdTaken"]
 
 # Stratify=y keeps the (imbalaced) purchase ratio consistent across splits
