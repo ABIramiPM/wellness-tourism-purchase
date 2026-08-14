@@ -97,7 +97,7 @@ with mlflow.start_run():
             mlflow.log_metric("mean_test_score", mean_score)
             mlflow.log_metric("std_test_score", std_score)
 
-    # Log best parameters separately in main run
+    # Log best parameters separately in main run 
     mlflow.log_params(grid_search.best_params_)
 
     # Store and evaluate the best model
