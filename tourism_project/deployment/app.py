@@ -36,6 +36,7 @@ DurationOfPitch           = st.number_input("Duration Of Pitch(minutes)", 0, 60,
 input_data = pd.DataFrame([{
 "Age": Age,
 "TypeofContact": TypeofContact,
+"CityTier": CityTier,                             
 "Occupation": Occupation,
 "Gender": Gender,
 "NumberOfPersonVisiting":NumberOfPersonVisiting,
